@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* me permite deslizar cuando hago clic en los links del menu */
+    scroll-behavior: smooth;
+}
+
+/* Archivo CSS (por ejemplo, styles.css) */
+.decoration-link {
+    text-decoration: none; /* Elimina la decoración (subrayado) */
+    color: inherit; /* Usa el color del texto circundante */
+  }
+  
+  .decoration-link:visited {
+    color: inherit; /* Mantiene el color del texto cuando el enlace ha sido visitado */
+  }
+  
